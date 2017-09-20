@@ -1,0 +1,71 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "25fb37c10fe325604bda8dd59f11f580",
+    "packages": [
+        {
+            "name": "nestordedios/bolt-theme-solarize",
+            "version": "v2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nestordedios/bolt-theme-solarize.git",
+                "reference": "78ac8abd3774b782565098464561965b7e2124bd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nestordedios/bolt-theme-solarize/zipball/78ac8abd3774b782565098464561965b7e2124bd",
+                "reference": "78ac8abd3774b782565098464561965b7e2124bd",
+                "shasum": ""
+            },
+            "require": {
+                "bolt/bolt": "^3.0"
+            },
+            "type": "bolt-theme",
+            "extra": {
+                "bolt-screenshots": [
+                    "screenshots/screenshot1.png",
+                    "screenshots/screenshot2.png",
+                    "screenshots/screenshot3.png",
+                    "screenshots/screenshot4.png",
+                    "screenshots/screenshot5.png"
+                ]
+            },
+            "license": [
+                "CCA (Creative Commons Attribution)"
+            ],
+            "authors": [
+                {
+                    "name": "Nestor de Dios Fernandez",
+                    "email": "nestordedios@outlook.es"
+                },
+                {
+                    "name": "TEMPLATED",
+                    "homepage": "www.templated.co"
+                }
+            ],
+            "description": "Solarize - A clean, minimalist responsive template built for whatever sort of venture you might be crafting",
+            "keywords": [
+                "clean",
+                "responsive",
+                "solarize",
+                "theme"
+            ],
+            "support": {
+                "source": "https://github.com/nestordedios/bolt-theme-solarize/tree/v2.0",
+                "issues": "https://github.com/nestordedios/bolt-theme-solarize/issues"
+            },
+            "time": "2016-04-29T10:03:50+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
