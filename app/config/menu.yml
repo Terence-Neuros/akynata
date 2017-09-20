@@ -2,25 +2,24 @@
 # details: https://docs.bolt.cm/configuration/menus
 
 main:
-    - label: Home
-      title: This is the first menu item.
+    - label: Accueil
       path: homepage
       class: first
-    - label: Second item
+    - label: La Carte
       path: entry/1
       submenu:
-          - label: Sub 1
+          - label: Menus
             path: entry/2
-          - label: Sub 2
+          - label: Entrées
             class: menu-item-class
             path: entry/3
-          - label: Sub 3
+          - label: Plats
             path: entry/4
-          - label: Sub 4
+          - label: Desserts
             class: sub-class
             path: page/3
-    - label: All pages
+    - label: Plan
       path: pages/
-    - label: The Bolt site
+    - label: Nous contacter
       link: http://bolt.cm
       class: last
