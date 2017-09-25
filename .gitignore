@@ -49,3 +49,6 @@ composer.phar
 Thumbs.db
 Vagrantfile
 
+# Development script files
+*.sh
+
