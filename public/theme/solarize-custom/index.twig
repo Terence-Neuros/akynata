@@ -51,40 +51,6 @@
 				</section>
 			</div>
 
-		<!-- Section Three -->
-			<div class="wrapper style4">
-				<section class="container">
-					<header class="major">
-						<h2>{{ record.title }}</h2>
-						<span class="byline">{{ record.slug }}</span>
-					</header>
-					<div class="row flush">
-						{% setcontent pages = 'pages/latest/3' %}
-						{% for page in pages %}
-						<div class="4u">
-							<ul class="special-icons">
-								<li>
-									<span class="fa fa-cogs"></span>
-									<h3>{{ page.slug }}</h3>
-									<p>{{ page.teaser }}</p>
-								</li>
-								<li>
-									<span class="fa fa-wrench"></span>
-									<h3>{{ page.slug }}</h3>
-									<p>{{ page.teaser }}</p>
-								</li>
-								<li>
-									<span class="fa fa-leaf"></span>
-									<h3>{{ page.slug }}</h3>
-									<p>{{ page.teaser }}</p>
-								</li>
-							</ul>
-						</div>
-						{% endfor %}
-					</div>
-				</section>
-			</div>
-
 			{% include '_team.twig' %}
 
 		{% endblock main %}
